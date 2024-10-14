@@ -1,24 +1,30 @@
 html, body{
     margin: 0;
+    font-family: ubuntu;
 }
 
 header{
     display: flex;
     background-color: rgb(	4, 108, 180);
-}
-
-header nav a{
-    display: flex;
-    text-decoration: none;
-    color: white;
     justify-content: space-between;
     align-items: center;
 }
 
 header img{
-    display: flex;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left:75px ;
+
+}
+
+#fim{
+    justify-content: end;
 }
 
 #div1 {

@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    overflow-x: hidden ;
     font-family: ubuntu;
 }
 
@@ -12,7 +13,7 @@ header{
 
 header img{
     width: 100px;
-    height: 100px;
+    height: 80px;
 }
 
 header a{
@@ -23,10 +24,43 @@ header a{
 
 }
 
+#começo{
+    margin-left: 4%;
+    height: 90px;
+
+}
+
 #fim{
     justify-content: end;
 }
 
+#linhah{
+    background-color:  rgb(4, 108, 180);
+    width: 1920px;
+    height: 5px;
+    display: flex;
+}
+
+#linhah div{
+    background-color: white;
+    width: 1850px;
+    height: 2px;
+    margin-left: 4%;
+    margin-right: 5%;
+
+}
+
+#primeiro{
+    margin-left: -13%;
+    width: 130px;
+    height: 90px;
+}
+
+#segundo{
+    margin-left: -5%;
+    width: 130px;
+    height: 85px;
+}
 
 
 

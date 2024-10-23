@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     overflow-x: hidden ;
     font-family: ubuntu;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -10,6 +11,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+nav a {
+    transition: .5s;
+}
+
+nav a:hover {
+    font-size: 27px;
+    text-decoration: underline;
+}
+
 
 header img{
     width: 100px;

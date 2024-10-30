@@ -140,28 +140,103 @@ section#s2 h1 {
 
 
 
+/* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 
 
-/*****************************************************************/
-/*****************  Cima  ****************************/
+#t2 h1{
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: 34%;
+    color: white;
+    font-family: "Oswald";
+    font-size: 73px;
+    color: white;
+}
 
-#div1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-left: 8%;
-    margin-top: 8%;
+#t2{
+    margin-top: -4%;
+    margin-bottom: -3%;
+    width: 100%;
+    height: 963px;
+    background-image: url("../Imagens/t2.png");
+}
+
+
+#sec4 {
+    background-color: #9AB1DA;
 
 }
 
-.escrita {
+#sec3 {
+    background-color: #046CB4;
+}
+
+#h2branco {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3%;
+    color: white;
+    font-size: 48px;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 5%;
+
+}
+
+#seciad P{
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 23px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 35px;
+}
+
+
+#Oquee {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 12%;
-    margin-right: 22%;
+}
+
+.secia {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+#oq1 {
+    max-width: 668px;
+    max-height: 420px;
+}
+
+ /*****************************************************/
+/*****************  Cima  ****************************/
+
+.secia1 img {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 698px;
+    max-height: 421px;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+
+}
+
+.secia1 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.secia1{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
 }
 
 .imagem1 {
@@ -169,25 +244,59 @@ section#s2 h1 {
     height: 300px;
 }
 
-/*****************  Baixo   ****************************/
+#sec4 P {
+    color: black;
+    font-size: 35px;
+    font-family: "Ubuntu", sans-serif;
+}
 
-#div2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-right: 20%;
-    margin-top: 8%;
+#sec4 H2 {
+    color: black;
+    font-size: 48px;
+    font-family: "Ubuntu", sans-serif;
 
 }
 
-.escrita1 {
+.secia1 {
+    display: flex;
+    align-items: center;
+    padding-top: 5% ;
+
+}
+
+
+/*****************  Baixo   ****************************/
+
+.secad1 {
+    display: flex;
+    align-items: center;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+
+}
+
+.secad1 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.secad1 img {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.secad1 P {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 22%;
     margin-left: 12%;
+    color: black;
 }
 
 .imagem2 {
@@ -195,5 +304,5 @@ section#s2 h1 {
     height: 300px;
 }
 
-/***************************************************/
+/* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 

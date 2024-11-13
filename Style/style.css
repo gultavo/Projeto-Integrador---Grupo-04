@@ -306,3 +306,76 @@ section#s2 h1 {
 
 /* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 
+/*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*/
+.IAC img {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 600px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+
+}
+
+.IAC h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+.IAC{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #9AB1DA;
+}
+
+
+footer{
+    background-color: rgb(4, 108, 180) ;
+    font-size: 25px;
+
+}
+
+footer section:last-child p{
+    font-size: 15px;
+    color: white;
+}
+
+footer section:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer section:first-child{
+    display: flex;
+    justify-content:left;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+#foot1 p{
+    margin-left: 8%;
+    color: white;
+}
+
+#linhaf{
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#foot2{
+    color: white;
+    padding-top: 3%;
+}
+
+#foot2 img{
+    width: 120px;
+    height: 150px;
+}

@@ -41,7 +41,7 @@ header a{
 
 }
 
-#fim{
+#icones_leitor{
     justify-content: end;
 }
 
@@ -78,11 +78,11 @@ header a{
 
 /*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*/
 
-section#s1 {
+#font_aud_descri {
     font-family: "Ubuntu";
-}
+}                   
 
-#block1 {
+#block_aud_descri {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -103,21 +103,21 @@ section#s1 {
     grid-row: 2/2;
 }
 
-#block1 h1, p {
+#block_aud_descri h1, p {
     text-align: center;
     color: #3D3D3D;
     font-size: 36px;
 }
 
-.escri1 {
+.text_aud_descri {
     margin-bottom: 12%;
 }
 
-.escri2 {
+.text2_aud_descri {
     margin-bottom: 12%;
 }
 
-section#s2 h1 {
+#titulo_aud_descri h1 {
     text-align: center;
     position: relative;
     right: 30%;
@@ -127,7 +127,7 @@ section#s2 h1 {
     font-size: 73px;
 }
 
-#block2 {
+#tit_aud_descri {
     margin-top: -3.5%;
     width: 100%;
     height: 963px;
@@ -143,7 +143,7 @@ section#s2 h1 {
 /* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 
 
-#t2 h1{
+#titulo_ia h1{
     text-align: center;
     position: relative;
     right: 30%;
@@ -154,7 +154,7 @@ section#s2 h1 {
     color: white;
 }
 
-#t2{
+#titulo_ia{
     margin-top: -4%;
     margin-bottom: -3%;
     width: 100%;
@@ -163,16 +163,17 @@ section#s2 h1 {
 }
 
 
-#sec4 {
+#ia_oq_e {
+    background-color: #046CB4;
+}
+
+#ia_como_influ {
     background-color: #9AB1DA;
 
 }
 
-#sec3 {
-    background-color: #046CB4;
-}
 
-#h2branco {
+#ia_h2branco {
     display: flex;
     justify-content: space-around;
     margin-top: 3%;
@@ -183,7 +184,7 @@ section#s2 h1 {
 
 }
 
-#seciad P{
+#block_oq_e P{
     color: white;
     margin-right: 20%;
     margin-left: 20%;
@@ -200,7 +201,7 @@ section#s2 h1 {
     align-items: center;
 }
 
-.secia {
+.img_ia {
     display: flex;
     justify-content: space-around;
     padding-top: 2%;
@@ -215,7 +216,7 @@ section#s2 h1 {
  /*****************************************************/
 /*****************  Cima  ****************************/
 
-.secia1 img {
+.text_como_influ img {
     margin-left: 10%;
     margin-right: 10%;
     max-width: 698px;
@@ -226,16 +227,17 @@ section#s2 h1 {
 
 }
 
-.secia1 h2 {
+.text_como_influ h2 {
     display: flex;
     justify-content: center;
 }
 
 
-.secia1{
+.text_como_influ{
     display: flex;
     align-items: center;
     margin-left: 5%;
+    padding-top: 5% ;
     
 }
 
@@ -257,17 +259,11 @@ section#s2 h1 {
 
 }
 
-.secia1 {
-    display: flex;
-    align-items: center;
-    padding-top: 5% ;
-
-}
 
 
 /*****************  Baixo   ****************************/
 
-.secad1 {
+.text2_como_influ {
     display: flex;
     align-items: center;
     padding-top: 5% ;
@@ -275,12 +271,12 @@ section#s2 h1 {
 
 }
 
-.secad1 h2 {
+.text2_como_influ h2 {
     display: flex;
     justify-content: center;
 }
 
-.secad1 img {
+.text2_como_influ img {
     display: flex;
     align-items: center;
     margin-right: 5%;
@@ -289,7 +285,7 @@ section#s2 h1 {
     max-height: 700px;
 }
 
-.secad1 P {
+.text2_como_influ P {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +303,7 @@ section#s2 h1 {
 /* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 
 /*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*/
-.IAC img {
+.ia_ace img {
     margin-left: 10%;
     margin-right: 10%;
     max-width: 600px;
@@ -318,14 +314,14 @@ section#s2 h1 {
 
 }
 
-.IAC h1{
+.ia_ace h1{
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
 
-.IAC{
+.ia_ace{
     margin: 0;
     display: flex;
     align-items: center;
@@ -358,24 +354,24 @@ footer section:first-child{
     align-items: center;
 }
 
-#foot1 p{
+#foot_sobre p{
     margin-left: 8%;
     color: white;
 }
 
-#linhaf{
+#f_ferramentas{
     background-color: rgb(255, 255, 255);
     height: 1px;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-#foot2{
+#foot_ia{
     color: white;
     padding-top: 3%;
 }
 
-#foot2 img{
+#foot_ia img{
     width: 120px;
     height: 150px;
 }

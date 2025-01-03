@@ -63,28 +63,3 @@ section.slider{
     margin-left: -50%;
 }
 
-/*texto*//*texto*//*texto*//*texto*//*texto*//*texto*//*texto*//*texto*/
-
-#imgheader1{
-    text-align: left;
-    display:flex;
-    justify-content: left;
-}
-
-#imgheader2{
-    text-align:right;
-    display:flex;
-    justify-content: right;
-}
-
-#imgheader3{
-    text-align: left;
-    display:flex;
-    justify-content: left;
-}
-
-#imgheader4{
-    text-align:right;
-    display:flex;
-    justify-content: right;
-}

@@ -62,15 +62,27 @@ header a{
 }
 
 #primeiro{
+    cursor: pointer;
     margin-left: -13%;
-    width: 130px;
-    height: 90px;
+    width: 122px;
+    height: 66px;
+    transition: .5s;
 }
 
-#segundo{
-    margin-left: -5%;
-    width: 130px;
-    height: 85px;
+#primeiro:hover {
+    transform: scale(1.14);
+}
+
+#segundo {
+    cursor: pointer;
+    margin-left: -12%;
+    width: 122px;
+    height: 66px;
+    transition: .5s;
+}
+
+#segundo:hover {
+    transform: scale(1.14);
 }
 
 
@@ -230,6 +242,7 @@ header a{
     display: flex;
     font-size: 36px;
     justify-content: center;
+    font-size: 40px;
 }
 
 
@@ -275,6 +288,7 @@ header a{
     display: flex;
     font-size: 36px;
     justify-content: center;
+    font-size: 40px;
 }
 
 .text2_como_influ img {
@@ -304,6 +318,26 @@ header a{
 /* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
 
 /*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*/
+#titulo_ia_ace h1{
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: 34%;
+    color: white;
+    font-family: "Oswald";
+    font-size: 73px;
+    color: white;
+}
+
+#titulo_ia_ace{
+    margin-top: -4%;
+    margin-bottom: -3%;
+    width: 100%;
+    height: 963px;
+    background-image: url("../Imagens/t3.png");
+}
+
+
 .ia_ace img {
     margin-left: 10%;
     margin-right: 10%;
@@ -366,8 +400,6 @@ footer section:first-child{
     justify-content: center;
     align-items: center;
     gap: 2%;
-    /* padding-left: 3%;
-    padding-right: 3%; */
     color: white;
 }
 

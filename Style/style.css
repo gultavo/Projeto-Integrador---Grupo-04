@@ -105,7 +105,6 @@ header a{
 
 #block_aud_descri h1, p {
     text-align: center;
-    color: #3D3D3D;
     font-size: 36px;
 }
 
@@ -229,6 +228,7 @@ header a{
 
 .text_como_influ h1 {
     display: flex;
+    font-size: 36px;
     justify-content: center;
     font-size: 40px;
 }
@@ -274,6 +274,7 @@ header a{
 
 .text2_como_influ h1 {
     display: flex;
+    font-size: 36px;
     justify-content: center;
     font-size: 40px;
 }

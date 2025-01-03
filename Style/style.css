@@ -227,9 +227,10 @@ header a{
 
 }
 
-.text_como_influ h2 {
+.text_como_influ h1 {
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 
 
@@ -271,9 +272,10 @@ header a{
 
 }
 
-.text2_como_influ h2 {
+.text2_como_influ h1 {
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 
 .text2_como_influ img {

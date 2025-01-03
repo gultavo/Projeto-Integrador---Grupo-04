@@ -334,7 +334,6 @@ header a{
 footer{
     background-color: rgb(4, 108, 180) ;
     font-size: 25px;
-
 }
 
 footer section:last-child p{
@@ -355,11 +354,6 @@ footer section:first-child{
     align-items: center;
 }
 
-#foot_sobre p{
-    margin-left: 8%;
-    color: white;
-}
-
 #f_ferramentas{
     background-color: rgb(255, 255, 255);
     height: 1px;
@@ -368,11 +362,48 @@ footer section:first-child{
 }
 
 #foot_ia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    /* padding-left: 3%;
+    padding-right: 3%; */
     color: white;
-    padding-top: 3%;
 }
 
-#foot_ia img{
+section #foot_voltar img{
     width: 120px;
     height: 150px;
+}
+
+#foot_ia p, b{
+    font-size: 27px;
+}
+
+#foot_voltar {
+    display: flex;
+    justify-content: center;
+}
+
+section #foot_ia div {
+    width: 20%;
+}
+
+#foot_ia img {
+    width: 125px;
+}
+
+#foot_ia div {
+    text-align: center;
+    height: auto;
+    width: 25%;
+}
+
+#foot_voltar img {
+    height: 100px;
+    transition: .5s;
+}
+
+#foot_voltar img:hover {
+    transform: scale(1.14);
 }

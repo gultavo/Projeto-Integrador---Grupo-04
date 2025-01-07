@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="JavaScript/carrossel.js" defer></script>
-    <script src="JavaScript/script.js" defer></script>
+    <script src="JavaScript/mudarIMG.js" defer></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
@@ -19,14 +19,18 @@
 <header>
     <img src="Imagens/Logo.png" id="começo">
     <nav>
-        <a href="#block_aud_descri">Áudiodescrição</a>
+        <a href="#block_aud_descri">Audiodescrição</a>
         <a href="#tit_aud_descri">Ambiente escolar/trabalho</a>
         <a href="#titulo_ia">Inteligência Artificial</a>
         <a href="#titulo_ia_ace">I.A. na acessibilidade</a>
     </nav>
     <div id="icones_leitor">
-        <img src="Imagens/icone audescricao.png" id="primeiro">
-        <img src="Imagens/icone traducao.png" id="segundo">
+        <button  id="primeiro">
+            <img src="Imagens/icone audescricao.png">
+        </button>
+        <button id="segundo">
+            <img src="Imagens/icone traducao.png">
+        </button>
     </div>
 </header>
 <section id="linhah">
@@ -46,19 +50,19 @@
 
 
             <div class="slide-box primeiro">
-                <img src="Imagens/carrossel.png" alt="Imagem1">
+                <img src="Imagens/carrossel.png" alt="Imagem1" id="img1">
             </div>
 
             <div class="slide-box">
-                <img src="Imagens/carrossel2.jpg" alt="Imagem2">
+                <img src="Imagens/carrossel2.jpg" alt="Imagem2" id="img2">
             </div>
 
             <div class="slide-box">
-                <img src="Imagens/carrossel3.jpg" alt="Imagem3">
+                <img src="Imagens/carrossel3.jpg" alt="Imagem3" id="img3">
             </div>
 
             <div class="slide-box">
-                <img src="Imagens/carrossel4.jpg" alt="Imagem4">
+                <img src="Imagens/carrossel4.jpg" alt="Imagem4" id="img4">
             </div>
 
             <div class="nav-auto">
@@ -82,7 +86,7 @@
         <div id="block_aud_descri">
             <img src="Imagens/Ad1.png" alt="Audiodescrição" class="img1" width="668" height="420">
             <div class="text_aud_descri">
-                <h1>Áudiodescrição</h1>
+                <h1>Audiodescrição</h1>
                 <p>A audiodescrição é uma ferramenta de acessibilidade para deficiêntes visuais (PCDVs)
                     por meio de áudio, onde é descrito vídeos, imagens, filmes, etc. Tem principalmente o intuito do
                     estudo. Além de ser muito importante que PCDVs tenham o direito de aprender novas coisas e ter noção
@@ -91,7 +95,7 @@
                     jogos escolares, viagens de estudo e atividades externas.</p>
             </div>
             <div class="text2_aud_descri">
-                <h1>Áudiodescrição na internet</h1>
+                <h1>Audiodescrição na internet</h1>
                 <p>A audiodescrição tem sido utilizada por diversos sites como ferramenta de acessibilidade para PCDVs,
                     onde por meio de som é descrito imagens mensagens textos e algumas vezes até videos, sites com tal
                     ferramenta são: WhatsCine, Be My Eyes, Read Aloud, UMPRATODOS, Biomob+, Talk Back e muitos mais que
@@ -103,14 +107,14 @@
     </section>
     <section id="titulo_aud_descri">
         <div id="tit_aud_descri">
-            <h1>Áudiodescrição no<br> ambiente de trabalho/<br>escolar</h1>
+            <h1>Audiodescrição no<br> ambiente de trabalho/<br>escolar</h1>
         </div>
     </section>
     <section id="sec1">
         <div id="block_aud_descri">
             <img src="Imagens/Ad3.png" alt="Audiodescrição" class="img1" width="668" height="420">
             <div class="text_aud_descri">
-                <h1>Áudiodescrição nas escolas</h1>
+                <h1>Audiodescrição nas escolas</h1>
                 <p>O funcionamento da educação para deficientes visuais, depende de vários componentes, como: o
                     Atendimento Educacional Especializado (AEE), a tecnologia assistiva e a acessibilidade em geral,
                     para que tenham o máximo de informações e compreensão do conteúdo tem como maio dificuldade a parte
@@ -118,7 +122,7 @@
                     de todoas para a educação é extremamente importante.</p>
             </div>
             <div class="text2_aud_descri">
-                <h1>Áudiodescrição na área de trabalho</h1>
+                <h1>Audiodescrição na área de trabalho</h1>
                 <p>Enquanto no mercado de trabalho, é também necessário um atendimento especial, acessibilidade e
                     compreensão da capacidade que possuem. A comunicação dos PCDVs e a empresa é essencial para entender
                     a situação que passa dentro do ambiente de trabalho. A busca de convivência igualitária é o destino
@@ -234,7 +238,7 @@
         <hr id="f_ferramentas">
         <div id="foot_ia">
             <div>
-                <b>Ferramentas para Áudiodescrição</b>
+                <b>Ferramentas para Audiodescrição</b>
                 <p>Be My Eyes, WhatsCine, Read Aloud, UMPRATODOS, Biomob+, etc.</p>
             </div>
             <div>

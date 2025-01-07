@@ -62,6 +62,8 @@ header a{
 }
 
 #primeiro{
+    background-color: transparent;
+    border: none;
     cursor: pointer;
     margin-left: -13%;
     width: 122px;
@@ -74,6 +76,8 @@ header a{
 }
 
 #segundo {
+    background-color: transparent;
+    border: none;
     cursor: pointer;
     margin-left: -12%;
     width: 122px;

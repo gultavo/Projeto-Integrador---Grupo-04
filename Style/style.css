@@ -1,13 +1,14 @@
-html, body{
+html,
+body {
     margin: 0;
-    overflow-x: hidden ;
+    overflow-x: hidden;
     font-family: ubuntu;
     scroll-behavior: smooth;
 }
 
-header{
+header {
     display: flex;
-    background-color: rgb(	4, 108, 180);
+    background-color: rgb(4, 108, 180);
     justify-content: space-between;
     align-items: center;
 }
@@ -22,37 +23,37 @@ nav a:hover {
 }
 
 
-header img{
+header img {
     width: 100px;
     height: 80px;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    margin-left:75px ;
+    margin-left: 75px;
 
 }
 
-#começo{
+#começo {
     margin-left: 4%;
     height: 90px;
 
 }
 
-#icones_leitor{
+#icones_leitor {
     justify-content: end;
 }
 
-#linhah{
-    background-color:  rgb(4, 108, 180);
+#linhah {
+    background-color: rgb(4, 108, 180);
     width: 1920px;
     height: 5px;
     display: flex;
 }
 
-#linhah div{
+#linhah div {
     background-color: white;
     width: 1850px;
     height: 2px;
@@ -61,14 +62,17 @@ header a{
 
 }
 
-#primeiro{
+#primeiro {
     background-color: transparent;
     border: none;
     cursor: pointer;
     margin-left: -13%;
+    transition: .5s;
+}
+
+#primeiro img {
     width: 122px;
     height: 66px;
-    transition: .5s;
 }
 
 #primeiro:hover {
@@ -80,23 +84,21 @@ header a{
     border: none;
     cursor: pointer;
     margin-left: -12%;
+    transition: .5s;
+}
+
+#segundo img {
     width: 122px;
     height: 66px;
-    transition: .5s;
 }
 
 #segundo:hover {
     transform: scale(1.14);
 }
 
-
-
-
-/*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*/
-
 #font_aud_descri {
     font-family: "Ubuntu";
-}                   
+}
 
 #block_aud_descri {
     display: grid;
@@ -119,7 +121,8 @@ header a{
     grid-row: 2/2;
 }
 
-#block_aud_descri h1, p {
+#block_aud_descri h1,
+p {
     text-align: center;
     font-size: 36px;
 }
@@ -149,16 +152,7 @@ header a{
     background-image: url("../Imagens/t1.png");
 }
 
-/*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*//*RITTER*/
-
-
-
-
-
-/* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
-
-
-#titulo_ia h1{
+#titulo_ia h1 {
     text-align: center;
     position: relative;
     right: 30%;
@@ -169,7 +163,7 @@ header a{
     color: white;
 }
 
-#titulo_ia{
+#titulo_ia {
     margin-top: -4%;
     margin-bottom: -3%;
     width: 100%;
@@ -199,7 +193,7 @@ header a{
 
 }
 
-#block_oq_e P{
+#block_oq_e P {
     color: white;
     margin-right: 20%;
     margin-left: 20%;
@@ -228,9 +222,6 @@ header a{
     max-height: 420px;
 }
 
- /*****************************************************/
-/*****************  Cima  ****************************/
-
 .text_como_influ img {
     margin-left: 10%;
     margin-right: 10%;
@@ -250,12 +241,12 @@ header a{
 }
 
 
-.text_como_influ{
+.text_como_influ {
     display: flex;
     align-items: center;
     margin-left: 5%;
-    padding-top: 5% ;
-    
+    padding-top: 5%;
+
 }
 
 .imagem1 {
@@ -276,14 +267,10 @@ header a{
 
 }
 
-
-
-/*****************  Baixo   ****************************/
-
 .text2_como_influ {
     display: flex;
     align-items: center;
-    padding-top: 5% ;
+    padding-top: 5%;
     padding-bottom: 5%;
 
 }
@@ -319,10 +306,7 @@ header a{
     height: 300px;
 }
 
-/* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE *//* FILIPE */
-
-/*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*//*Luiz*/
-#titulo_ia_ace h1{
+#titulo_ia_ace h1 {
     text-align: center;
     position: relative;
     right: 30%;
@@ -333,7 +317,7 @@ header a{
     color: white;
 }
 
-#titulo_ia_ace{
+#titulo_ia_ace {
     margin-top: -4%;
     margin-bottom: -3%;
     width: 100%;
@@ -353,14 +337,14 @@ header a{
 
 }
 
-.ia_ace h1{
+.ia_ace h1 {
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
 
-.ia_ace{
+.ia_ace {
     margin: 0;
     display: flex;
     align-items: center;
@@ -369,37 +353,37 @@ header a{
 }
 
 
-footer{
-    background-color: rgb(4, 108, 180) ;
+footer {
+    background-color: rgb(4, 108, 180);
     font-size: 25px;
 }
 
-footer section:last-child p{
+footer section:last-child p {
     font-size: 15px;
     color: white;
 }
 
-footer section:last-child{
+footer section:last-child {
     display: flex;
     justify-content: space-evenly;
 }
 
-footer section:first-child{
+footer section:first-child {
     display: flex;
-    justify-content:left;
+    justify-content: left;
     width: 100%;
     height: 150px;
     align-items: center;
 }
 
-#f_ferramentas{
+#f_ferramentas {
     background-color: rgb(255, 255, 255);
     height: 1px;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-#foot_ia{
+#foot_ia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,12 +391,13 @@ footer section:first-child{
     color: white;
 }
 
-section #foot_voltar img{
+section #foot_voltar img {
     width: 120px;
     height: 150px;
 }
 
-#foot_ia p, b{
+#foot_ia p,
+b {
     font-size: 27px;
 }
 

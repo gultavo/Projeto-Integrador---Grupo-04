@@ -12,6 +12,10 @@
         "t2i": "Audio description has been used by several websites as an accessibility tool for PCDVs, which through sound describes images, messages, texts and sometimes even videos, websites such as: WhatsCine, Be My Eyes, Read Aloud, UMPRATODOS, Biomob+, Talk Back and many more that do contribute to accessibility. There are tools like Facebook that are increasingly seeking to become more accessible, to reach more PCDV audiences."
     },
     {
+        "m1": "Audiodescrição no ambiente de trabalho/escolar",
+        "m1i": "Audio description at work/school ambient"
+    },
+    {
         "ti3": "Audiodescrição nas escolas",
         "tii3": "Audio description at school",
         "t3": "Um bom funcionamento da educação para deficientes visuais depende de vários componentes:  o Atendimento Educacional Especializado (AEE), a tecnologia assistiva e a acessibilidade em geral. Esses componentes são importantes para que os PCDVs  tenham o máximo de informações e compreensão do conteúdo. Foi comprovado que alunos com esse perfil tem como maior dificuldade a matéria de ciências a qual é muito necessário o uso de imagens e vídeos. A inclusão de todos para a educação é extremamente importante.",
@@ -22,6 +26,10 @@
         "tii4": "Audio description at the work area",
         "t4": "No mercado de trabalho, é também necessário um atendimento especial, e ferramentas de acessibilidade de forma que podemos ter compreensão da capacidade que os PCDVs possuem. A comunicação entre a empresa é essencial para entender a situação que essas pessoas  passam dentro do ambiente de trabalho. A busca de convivência igualitária é o destino correto para prosseguir como sociedade.",
         "t4i": "In the work industry, special assistance and accessibility tools are also necessary so that we can understand the capabilities that PCDVs have. Communication between the company is essential to understand the situation that these people go through within the work environment. The search for egalitarian coexistence is the correct destination to continue as a society."
+    },
+    {
+        "m2": "Inteligência Artificial",
+        "m2i": "Artificial Intelligence"
     },
     {
         "ti5": "O que é?",
@@ -40,6 +48,10 @@
         "tii7": "The future of that technology",
         "t7": "As IAs têm como objetivo realizar funções de um ser humano como: responder questões, ter opiniões e realizar tarefas, ou seja, pensar, raciocinar e aprender. Com o avanço da tecnologia , os objetivos vão ficando cada vez mais possíveis e reais.  De acordo com um relatório do Fórum Econômico Mundial, aplicações que dependem das IAs podem gerar  oportunidades de negócios, porém, ao mesmo tempo causar a falta de emprego.",
         "t7i": "The AIs aim to perform functions of a human being, such as: answering questions, having opinions and carrying out tasks, that is, thinking, reasoning and learning. With the advancement of technology, goals become increasingly possible and real.  According to a report by the World Economic Forum, applications that depend on AI can generate business opportunities, but at the same time cause a lack of jobs."
+    },
+    {
+        "m3": "I.A na Acessibilidade",
+        "m3i": "A.I in Acessiblity"
     },
     {
         "ti8": "Qual o impacto na acessibilidade?",
@@ -76,17 +88,5 @@
     {
         "a4": "I.A na Acessibilidade",
         "a4t": "A.I at Acessibility"
-    },
-    {
-        "m1": "Audiodescrição no ambiente de trabalho/escolar",
-        "m1i": "Audio description at work/school ambient"
-    },
-    {
-        "m2": "Inteligência Artificial",
-        "m2i": "Artificial Intelligence"
-    },
-    {
-        "m3": "I.A na Acessibilidade",
-        "m3i": "A.I in Acessiblity"
     }
 ]

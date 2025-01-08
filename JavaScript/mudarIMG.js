@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             imagem3.src = 'Imagens/CarrosselT3.png';
             imagem4.src = 'Imagens/CarrosselT4.png';
         }
-        else if (segundo.state == false) {
+        else {
             console.log("falso");
             imagem1.src = 'Imagens/carrossel.png';
             imagem2.src = 'Imagens/carrossel2.jpg';
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const segundo = document.getElementById('segundo');
     segundo.state = false;
     segundo.addEventListener('click', function () {
-        traduzimg();
         mudaEstado(segundo);
+        traduzimg();
     });
 
 });

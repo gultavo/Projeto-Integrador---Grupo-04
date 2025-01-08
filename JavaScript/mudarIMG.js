@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (segundo.state == true) {
             console.log("vdd");
-            imagem1.src = 'Imagens/CarrosselT1.png';
+            imagem1.src = 'Imagens/carrosselT1.png';
             imagem2.src = 'Imagens/CarrosselT2.png';
             imagem3.src = 'Imagens/CarrosselT3.png';
             imagem4.src = 'Imagens/CarrosselT4.png';

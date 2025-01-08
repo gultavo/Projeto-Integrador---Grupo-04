@@ -54,6 +54,30 @@
         "t9i": "One of the biggest concerns about artificial intelligence is the impact it will have on professions. There will certainly be replacements for many jobs, on the other hand, it has a positive effect with the creation of new occupations. The use of AIs has advantages and disadvantages, it can be used for both good and bad, but AI will definitely change professions considerably."
     },
     {
+        "ti10": "Ferramentas para Audiodescrição",
+        "tii10": "Audio Description tools"
+    },
+    {
+        "ti11": "Leitores de Tela",
+        "tii11": "Screen Readers"
+    },
+    {
+        "a1": "Audiodescrição",
+        "at1": "Audio Description"
+    },
+    {
+        "a2": "Ambiente Escolar/Trabalho",
+        "a2t": "School/Work Ambient"
+    },
+    {
+        "a3": "Inteligência Artificial",
+        "a3t": "Artificial inteligence"
+    },
+    {
+        "a4": "I.A na Acessibilidade",
+        "a4t": "A.I at Acessibility"
+    },
+    {
         "m1": "Audiodescrição no ambiente de trabalho/escolar",
         "m1i": "Audio description at work/school ambient"
     },

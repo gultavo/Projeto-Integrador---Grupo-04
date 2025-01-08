@@ -37,5 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-localStorage.setItem("t1", "One of the biggest concerns about artificial intelligence is the impact it will have on professions. There will certainly be replacements for many jobs, on the other hand, it has a positive effect with the creation of new occupations. The use of AIs has advantages and disadvantages, it can be used for both good and bad, but AI will definitely change professions considerably.")
-console.log("atualizado");
+console.log("desatualizado");

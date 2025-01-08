@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (segundo.state == true) {
             console.log("vdd");
-            imagem1.src = 'Imagens/carrosselT1.png';
-            imagem2.src = 'Imagens/carrosselT2.png';
-            imagem3.src = 'Imagens/carrosselT3.png';
-            imagem4.src = 'Imagens/carrosselT4.png';
+            imagem1.src = 'Imagens/carrosselt1.png';
+            imagem2.src = 'Imagens/carrosselt2.png';
+            imagem3.src = 'Imagens/carrosselt3.png';
+            imagem4.src = 'Imagens/carrosselt4.png';
         }
         else {
             console.log("falso");

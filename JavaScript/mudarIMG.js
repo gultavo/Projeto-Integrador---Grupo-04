@@ -1,3 +1,6 @@
+const vars = ["ti1", "t1", "ti2", "t2", "ti3", "t3", "ti4", ""]
+
+
 document.addEventListener('DOMContentLoaded', function () {
 
     function traduzimg() {
@@ -37,6 +40,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+
+
+
+
+
+
+
+
 main()
 
 async function main() {
@@ -54,3 +66,8 @@ async function getData() {
 }
 
 console.log("atualizado");
+
+
+function trocarTexto() {
+
+}

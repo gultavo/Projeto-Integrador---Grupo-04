@@ -1,5 +1,21 @@
 [
     {
+        "a1": "Audiodescrição",
+        "at1": "Audio Description"
+    },
+    {
+        "a2": "Ambiente Escolar/Trabalho",
+        "a2t": "School/Work Ambient"
+    },
+    {
+        "a3": "Inteligência Artificial",
+        "a3t": "Artificial inteligence"
+    },
+    {
+        "a4": "I.A na Acessibilidade",
+        "a4t": "A.I at Acessibility"
+    },
+    {
         "ti1": "Audiodescrição",
         "tii1": "Audiodescription",
         "t1": "A audiodescrição é uma ferramenta de acessibilidade para deficientes visuais (PCDVs) que descreve através do som, vídeos, imagens, filmes, etc. Tem principalmente o intuito do estudo. É muito importante que PCDVs tenham o direito de aprender novas coisas e ter noção da realidade. No contexto escolar a audiodescrição permite o acesso por parte de todos os alunos, pela descrição do ambiente, ajuda PCDVs, a se manterem em ambientes que podem ser um desafio como: jogos escolares, viagens de estudo e atividades externas.",
@@ -72,21 +88,5 @@
     {
         "ti11": "Leitores de Tela",
         "tii11": "Screen Readers"
-    },
-    {
-        "a1": "Audiodescrição",
-        "at1": "Audio Description"
-    },
-    {
-        "a2": "Ambiente Escolar/Trabalho",
-        "a2t": "School/Work Ambient"
-    },
-    {
-        "a3": "Inteligência Artificial",
-        "a3t": "Artificial inteligence"
-    },
-    {
-        "a4": "I.A na Acessibilidade",
-        "a4t": "A.I at Acessibility"
     }
 ]

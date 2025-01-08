@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const segundo = document.getElementById('segundo');
     segundo.state = false;
     segundo.addEventListener('click', function () {
-        traduzimg();
         mudaEstado(segundo);
+        traduzimg();
     });
 
 });

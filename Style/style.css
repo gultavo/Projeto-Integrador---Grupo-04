@@ -36,6 +36,7 @@ header a {
 
 }
 
+
 #começo {
     margin-left: 4%;
     height: 90px;
@@ -127,9 +128,6 @@ p {
     font-size: 36px;
 }
 
-.text_aud_descri {
-    margin-bottom: 12%;
-}
 
 .text2_aud_descri {
     margin-bottom: 12%;
@@ -247,6 +245,12 @@ p {
     margin-left: 5%;
     padding-top: 5%;
 
+}
+
+#m1 {
+    justify-self: left;
+    left: 0px;
+    width: 40%;
 }
 
 .imagem1 {

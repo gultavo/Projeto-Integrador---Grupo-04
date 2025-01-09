@@ -97,6 +97,11 @@ header a {
     transform: scale(1.14);
 }
 
+p {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
 #font_aud_descri {
     font-family: "Ubuntu";
 }

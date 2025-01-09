@@ -1,12 +1,15 @@
 const vars = ["a1", "a2", "a3", "a4", "ti1", "t1", "ti2", "t2", "ti3", "t3", "ti4", "t4", "m1",
-"m2", "ti5", "t5", "ti6","t6", "ti7", "t7", "ti8", "t8", "ti9", "t9", "ti10", "ti11", "ti12", "m3"]
+    "m2", "ti5", "t5", "ti6", "t6", "ti7", "t7", "ti8", "t8", "ti9", "t9", "ti10", "ti11", "ti12", "m3",
+    "imgm1", "imgm2", "imgm3", "imgm4", "imgm5", "imgm6", "imgm7", "imgm8"];
 
 const varsIngles = ["a1t", "a2t", "a3t", "a4t", "tii1", "t1i", "tii2", "t2i", "tii3", "t3i", "tii4",
-"t4i", "m1i", "m2i", "tii5", "t5i", "tii6", "t6i", "tii7", "t7i", "tii8", "t8i", "tii9", "t9i", "tii10",
-"tii11", "tii12", "m3i"]
+    "t4i", "m1i", "m2i", "tii5", "t5i", "tii6", "t6i", "tii7", "t7i", "tii8", "t8i", "tii9", "t9i", "tii10",
+    "tii11", "tii12", "m3i", "imgmi1", "imgmi2", "imgmi3", "imgmi4", "imgmi5", "imgmi6", "imgmi7", "imgmi8"];
 
-variaveis = []
-variaveisIngles = []
+const variaveis = [];
+const variaveisIngles = [];
+const alts = [];
+const altsIngles = [];
 
 for (let i = 0; i < vars.length; i++) {
     const element = document.getElementById(vars[i]);
@@ -15,7 +18,12 @@ for (let i = 0; i < vars.length; i++) {
     variaveisIngles.push(elementIngles);
 }
 
-
+for (let i = 28; i <= 34; i++) {
+    const altsV = document.getElementById(vars[i]);
+    const altsVI = document.getElementById(varsIngles[i]);
+    alts.push(altsV);
+    altsIngles.push(altsVI);
+}
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -67,10 +75,21 @@ async function main(idioma) {
         }
     }
 
+    count = 28;
+    count2 = 14;
+
+    for (let i = 0; i <= alts.length; i++) {
+        alts[i].alt = dataJson[count2][idioma[count]];
+        count += 1;
+        count2 += 1;
+    }
+
 }
+
 
 async function getData() {
     const res = await fetch("./json/texts.json");
     const data = await res.json();
     return data;
 }
+

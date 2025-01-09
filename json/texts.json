@@ -68,7 +68,7 @@
     {
         "ti9": "A influencia no ambito digital e físico",
         "tii9": "The influence on the digital scope and physic",
-        "t9": "Um dos temas de maior preocupação sobre inteligências artificiais, são os impactos que terão nas profissões. Certamente que haverá substituições de muitos postos de trabalho, por outro lado, promove um efeito positivo com a criação de novas ocupações. O uso de IAs tem vantagens e desvantagens, pode ser usada tanto para o bem quanto para o mal, mas definitivamente a ia ira mudar consideravelmente as profissões.",
+        "t9": "Um dos temas de maior preocupação sobre inteligências artificiais, são os impactos que terão nas profissões. Certamente que haverá substituições de muito postos de trabalho, por outro lado, promove um efeito positivo com a criação de novas ocupações. O uso de IAs tem vantagens e desvantagens, pode ser usada tanto para o bem quanto para o mal, mas definitivamente a ia ira mudar consideravelmente as profissões.",
         "t9i": "One of the biggest concerns about artificial intelligence is the impact it will have on professions. There will certainly be replacements for many jobs, on the other hand, it has a positive effect with the creation of new occupations. The use of AIs has advantages and disadvantages, it can be used for both good and bad, but AI will definitely change professions considerably."
     },
     {
@@ -82,5 +82,29 @@
         "tii12": "Artificial Intelligence",
         "m3": "I.A na Acessibilidade",
         "m3i": "A.I in Accessibility"
+    },
+    {
+        "imgm1": "Imagem mulher digitando e gravando áudio",
+        "imgmi1": "Image of a woman typing and recording an audio",
+        "imgm2": "Imagem de um fone relacionado ao cérebro, usando a audição como sentido principal",
+        "imgmi2": "Image of a headphone related to the brain, using the hearing as the main sense"
+    },
+    {
+        "imgm3": "Imagem de um fone",
+        "imgmi3": "Image of a headphone",
+        "imgm4": "Imagem de uma mulher gravando áudio",
+        "imgmi4": "Image of a woman recording an audio"
+    },
+    {
+        "imgm5": "Imagem de uma mulher com deficiência visual",
+        "imgmi5": "Image of a woman with visual impairment",
+        "imgm6": "Imagem de um robô futurista",
+        "imgmi6": "Image of a futuristic robot"
+    },
+    {
+        "imgm7": "Imagem de uma mão futurista interagindo com um computador",
+        "imgmi7": "Image of a futuristic hand interacting with a computer",
+        "imgm8": "Imagem de uma pessoa vendo o mundo em uma tela futurista",
+        "imgmi8": "Image of a person seeing the world in a futuristic screen"
     }
 ]
